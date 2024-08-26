@@ -3,7 +3,7 @@ local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shle
 local Window = Rayfield:CreateWindow({
     Name = "Azure - Bloxstrap for Roblox Mobile",
     LoadingTitle = "Azure Utility",
-    LoadingSubtitle = "By Oce4nic Softwares",
+    LoadingSubtitle = "By RontuYT on YouTube.",
     ConfigurationSaving = {
         Enabled = true,
         FolderName = "AzureConfigs", -- Change if you want to store configs in a different folder
@@ -89,9 +89,9 @@ SettingsSection:CreateButton({
 
 -- Placeholder for game IDs
 local GameIDs = MainTab:CreateSection("Game IDs")
-GameIDs:CreateLabel("Roblox Bedwars Lobby ID: [Enter ID Here]")
-GameIDs:CreateLabel("Mega Game ID: [Enter ID Here]")
-GameIDs:CreateLabel("Micro Game ID: [Enter ID Here]")
+GameIDs:CreateLabel("Game Lobby ID: [Enter ID Here]")
+GameIDs:CreateLabel("Game Mega ID: [Enter ID Here]")
+GameIDs:CreateLabel("Game Micro ID: [Enter ID Here]")
 
 -- Load the configuration
 Rayfield:LoadConfiguration()
