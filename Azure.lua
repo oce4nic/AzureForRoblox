@@ -71,9 +71,9 @@ SettingsSection:CreateDropdown({
 
 -- Placeholder for game IDs
 local GameIDs = MainTab:CreateSection("Game IDs")
-GameIDs:CreateLabel("Game Lobby ID: [Enter ID Here]")
-GameIDs:CreateLabel("Game Mega ID: [Enter ID Here]")
-GameIDs:CreateLabel("Game Micro ID: [Enter ID Here]")
+GameIDs:CreateLabel("Game Lobby ID: [6872274481]")
+GameIDs:CreateLabel("Game Mega ID: [6872265039]")
+GameIDs:CreateLabel("Game Micro ID: [6872265039]")
 
 -- Custom Client tab setup
 local CustomClientTab = Window:CreateTab("CustomClient", 4483362458) -- Tab name and optional icon ID ig
